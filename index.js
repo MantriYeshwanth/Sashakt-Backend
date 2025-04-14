@@ -3,10 +3,11 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
 const helmet = require("helmet");
-app.use(helmet());
 
 const app = express();
 app.use(express.json());
+
+app.use(helmet());
 
 const allowedOrigins = [
   "http://localhost:3000",
