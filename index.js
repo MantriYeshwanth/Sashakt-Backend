@@ -12,6 +12,7 @@ app.use(helmet());
 const allowedOrigins = [
   "http://localhost:3000",
   "https://sashakt-child-empowerment.vercel.app",
+  "https://sashakt-five.vercel.app/",
 ];
 
 const corsOptions = {
