@@ -13,6 +13,7 @@ const allowedOrigins = [
   "http://localhost:3000",
   "https://sashakt-child-empowerment.vercel.app",
   "https://sashakt-five.vercel.app/",
+  "https://sashakt-dl9dlddwf-yashmanthri19-gmailcoms-projects.vercel.app/",
 ];
 
 const corsOptions = {
